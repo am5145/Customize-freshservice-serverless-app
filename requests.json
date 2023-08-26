@@ -1,0 +1,13 @@
+{
+    "Create": {
+        "schema": {
+            "method": "POST",
+            "host": "<%= iparam.domain %>.freshservice.com",
+            "path": "/api/v2/tickets",
+            "headers": {
+                "Authorization": "Bearer <%= iparam.api_key %>",
+                "Content-Type": "application/json"
+            }
+        }
+    }
+}
