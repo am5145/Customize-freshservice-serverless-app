@@ -1,37 +1,3 @@
-// exports = {
-
-//   onTicketCreateHandler: function(args) {
-    
-//     const ticketData = {
-//       description:args.data.ticket.description,
-//       subject: args.data.ticket.subject,
-//       email: args.data.requester.email,
-//       priority: args.data.ticket.priority,
-//       status: args.data.ticket.status,
-      
-      
-     
-//     };
-//      console.log(ticketData);
-//      $request.post(`https://${args.iparams.domain}.freshdesk.com/api/v2/tickets`, {
-//   headers:{
-  
-//   "Authorization": "Basic <%= encode(iparam.apiKey) %>",
-//   "Content-Type": "application/json",
-// },body: JSON.stringify(ticketData)
-// })
-//   .then(
-//     function(data) {
-//      console.log(data)
-
-//     },
-//     function(error) {
-//       console.log(error)
-//     }
-//   );
-  
-// }     
-// };
 
 
 exports = {
